@@ -22,9 +22,7 @@ function Counter({initialCount = 0, step = 1}) {
   })
   const {count} = state
 
-  const increment = () => dispatch({type: 'INCREMENT', step})
-
-  return <button onClick={increment}>{count}</button>
+  // return <button onClick={increment}>{count}</button>
 }
 
 function App() {
